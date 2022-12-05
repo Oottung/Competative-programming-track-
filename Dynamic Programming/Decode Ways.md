@@ -1,5 +1,5 @@
 # Decode Ways 
-## 91. leetcode
+## 91. leetcode https://leetcode.com/problems/decode-ways-ii/solution/
 A message containing letters from A-Z can be encoded into numbers using the following mapping:
 ``` 
 'A' -> "1"
