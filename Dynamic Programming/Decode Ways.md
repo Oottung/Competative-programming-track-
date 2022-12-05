@@ -38,3 +38,43 @@ Explanation: "06" cannot be mapped to "F" because of the leading zero ("6" is di
 
 Related Topics: String, Dynamic Programming
 
+
+
+
+
+## Solution:
+```
+class Solution:
+    def numDecodings(self, s: str) -> int:
+        valid=["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26"]
+
+        dp=[-1]*(len(s)+1)        
+        def an(i):
+            if i==len(s): return 1
+            
+            if dp[i]!=-1: return dp[i]
+            
+            if i==len(s)-1:
+                if s[i] in valid:
+                    return an(i+1)
+            else:
+                a=0
+                if s[i] in valid:
+                    a+=an(i+1)
+                if s[i:i+2] in valid:
+                    a+=an(i+2)
+                dp[i]=a
+                return dp[i]
+            return 0
+        ans=an(0)
+        return 0 if ans==None else ans
+        
+        
+        
+        
+        #Boiler plate code:
+runn=Solution()
+s=input()
+print(runn.numDecodings(s))
+```
+
