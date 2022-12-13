@@ -7,6 +7,8 @@ Problems:
   1. Decode Ways
   2. Jump Game
   3. Regular Expression Matching
+  4. Minimum Path Sum
+  
   
 * Greedy
 
