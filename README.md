@@ -13,3 +13,7 @@ Problems:
 * Greedy
 
   1. Jump Game
+  
+* String Manupulation
+
+  1. Set bit count 
