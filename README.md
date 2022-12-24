@@ -8,6 +8,7 @@ Problems:
   2. Jump Game
   3. Regular Expression Matching
   4. Minimum Path Sum
+  5. Domino and Tromino Tiling
   
   
 * Greedy
