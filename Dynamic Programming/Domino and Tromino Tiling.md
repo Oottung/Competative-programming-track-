@@ -2,13 +2,8 @@
 ## 790. Domino and Tromino Tiling (https://leetcode.com/problems/domino-and-tromino-tiling/description/)
 
 You have two types of tiles: a 2 x 1 domino shape and a tromino shape. You may rotate these shapes.
-```
- _____ _____            _____ _____   
-|  .     .  |          |  .     .  |
-|_____ _____|          |      _____|
-                       |  .  |   
-                       |_____|  
-```
+
+![lc-domino](https://user-images.githubusercontent.com/71955443/210150467-2be80d05-f2b6-4e08-bb3c-8c03c174e292.jpg)
 
 Given an integer n, return the number of ways to tile an 2 x n board. Since the answer may be very large, return it modulo 109 + 7.
 
@@ -24,38 +19,9 @@ Output: 5
 Explanation: The five different ways are show below.
 ```
 
-```
- _____ _____ _____
-|  .  |  .     .  |
-|     |_____ _____|
-|  .  |  .     .  |
-|_____|___________|
+![lc-domino1](https://user-images.githubusercontent.com/71955443/210150484-cf3f4b23-8ec3-4050-a345-698e874a3b22.jpg)
 
- _____ _____ _____
-|  .  |  .  |  .  |
-|     |     |     |
-|  .  |  .  |  .  |
-|_____|_____|_____|
 
- _____ _____ _____
-|  .     .  |  .  |
-|_____ _____|     |
-|  .     .  |  .  |
-|_____ _____|_____|
-
- _____ _____ _____
-|  .  |  .     .  |
-|     |_____      |
-|  .     .  |  .  |
-|_____ _____|_____|
-
- _____ _____ _____
-|  .     .  |  .  |
-|      _____|     |
-|  .  |  .     .  |
-|_____|_____ _____|
-
-```
 **Example 2:**
 ```
 Input: n = 1
