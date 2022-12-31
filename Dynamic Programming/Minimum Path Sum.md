@@ -6,16 +6,10 @@ Given a m x n grid filled with non-negative numbers, find a path from top left t
 Note: You can only move either down or right at any point in time.
 
 **Example 1:**
-```
-___,___,___
- 1 | 3 | 1 |
-___,___,___
- 1 | 5 | 1 |
-___,___,___
- 4 | 2 | 1 |
-___,___,___
 
-```
+![minpath](https://user-images.githubusercontent.com/71955443/210150528-8e2a3f17-7acf-4c82-9406-99be59be24e2.jpg)
+
+
 ```
 Input: grid = [[1,3,1],[1,5,1],[4,2,1]]
 Output: 7
